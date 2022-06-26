@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Goldenpeachm">
         <activity
-            android:name=".AssetsActivity"
+            android:name=".MetamaskActivity"
             android:exported="false" />
         <activity
             android:name=".LoginActivity"
