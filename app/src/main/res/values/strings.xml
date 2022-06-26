@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">golden-peach-m</string>
+    <string name="app">Golden\nPeach</string>
+    <string name="log_in">Connect to wallet</string>
+    <string name="logo_desc">Logo</string>
 </resources>
