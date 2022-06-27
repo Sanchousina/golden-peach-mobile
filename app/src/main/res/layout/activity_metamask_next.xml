@@ -57,4 +57,31 @@
         android:layout_gravity="center"
         />
 
+	<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Allow this site to:"
+        android:textSize="20sp"
+        android:layout_gravity="center"/>
+
+	<LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="45dp"
+        android:layout_gravity="center"
+        android:background="@drawable/textview_border"
+        android:padding="10dp">
+
+		<TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="See address, account balance,\nactivity
+and suggest transactions to\napprove"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            />
+	</LinearLayout>
+
+
 </LinearLayout>
