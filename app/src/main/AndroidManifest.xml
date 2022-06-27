@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Goldenpeachm">
         <activity
+            android:name=".AssetsActivity"
+            android:exported="false" />
+        <activity
             android:name=".MetamaskActivity"
             android:exported="false" />
         <activity

@@ -23,5 +23,6 @@ public class MetamaskActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
     }
 }
