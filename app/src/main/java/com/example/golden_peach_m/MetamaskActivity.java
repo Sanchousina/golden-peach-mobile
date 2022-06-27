@@ -24,5 +24,14 @@ public class MetamaskActivity extends AppCompatActivity {
             }
         });
 
+        //for Maria commit1
+        next_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext());
+                startActivity(intent);
+            }
+        });
+
     }
 }
