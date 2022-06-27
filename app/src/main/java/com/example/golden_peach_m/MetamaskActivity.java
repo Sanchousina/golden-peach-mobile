@@ -23,5 +23,13 @@ public class MetamaskActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        next_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), MetamaskNextActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }
