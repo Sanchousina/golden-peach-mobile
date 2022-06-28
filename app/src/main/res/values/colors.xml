@@ -10,4 +10,5 @@
     <color name="background">#0A0A0C</color>
     <color name="golden">#F9E213</color>
     <color name="textview_border">#808c83</color>
+    <color name="perfect_grey">#ACACAC</color>
 </resources>
