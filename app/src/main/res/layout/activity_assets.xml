@@ -30,4 +30,39 @@
         android:layout_width="match_parent"
         android:layout_height="400dp"/>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BUY"
+            android:letterSpacing="0.1"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:background="@drawable/buy_button"
+            android:textColor="@color/golden"
+            android:layout_marginHorizontal="20dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/receive"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:text="RECEIVE"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:letterSpacing="0.1"
+            android:layout_weight="1"
+            android:background="@drawable/buy_button"
+            android:textColor="@color/golden"
+            android:layout_marginHorizontal="20dp"/>
+    </LinearLayout>
+
+    
+
 </LinearLayout>
