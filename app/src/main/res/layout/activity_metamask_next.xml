@@ -96,7 +96,7 @@ and suggest transactions to\napprove"
 		android:layout_width="match_parent"
 		android:layout_height="1dp"
 		android:background="@color/textview_border"
-		android:layout_marginTop="200dp"/>
+		android:layout_marginTop="220dp"/>
 
 	<LinearLayout
 		android:layout_width="match_parent"
