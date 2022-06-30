@@ -23,7 +23,7 @@ import java.util.ArrayList;
 
 public class AssetsActivity extends AppCompatActivity {
 
-    Button send;
+    Button send, receive;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -33,6 +33,15 @@ public class AssetsActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(AssetsActivity.this, SendActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        receive = findViewById(R.id.receive);
+        receive.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(AssetsActivity.this, ReceiveActivity.class);
                 startActivity(intent);
             }
         });
