@@ -14,7 +14,7 @@
         android:layout_margin="20dp">
 
         <ImageView
-            android:id="@+id/imageView6"
+            android:id="@+id/logo_back"
             android:layout_width="50dp"
             android:layout_height="50dp"
             app:srcCompat="@drawable/peach" />
