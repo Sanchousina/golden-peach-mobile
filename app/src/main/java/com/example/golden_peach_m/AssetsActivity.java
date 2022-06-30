@@ -36,7 +36,7 @@ public class AssetsActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        
+
         LineChart chart = (LineChart) findViewById(R.id.chart);
         LineDataSet dataSet = new LineDataSet(getValues(), "Balance");
 
