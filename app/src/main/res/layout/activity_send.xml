@@ -57,6 +57,7 @@
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="250dp"
+                android:id="@+id/input_amount"
                 android:layout_height="wrap_content"
                 android:background="@drawable/input_fields"
                 android:hint="0"
@@ -103,6 +104,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="250dp"
                 android:layout_height="wrap_content"
+                android:id="@+id/input_address"
                 android:background="@drawable/input_fields"
                 android:hint="Address"
                 android:textColor="@color/white"
