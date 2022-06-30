@@ -56,9 +56,6 @@ public class AssetsActivity extends AppCompatActivity {
         dataSet.setLineWidth(4f);
         dataSet.setValueTextSize(14f);
         dataSet.setValueTextColor(getApplicationContext().getResources().getColor(R.color.white));
-        //dataSet.setDrawValues(false);
-//        dataSet.setMode(LineDataSet.Mode.CUBIC_BEZIER);
-//        dataSet.setCubicIntensity(0.2f);
 
         LineData lineData = new LineData(dataSet);
         chart.setData(lineData);
